@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <button id="button">Click me</button>
+    <p id="text">Javascript is cool</p>
+
+    <button id="button-2">Click me after</button>
+
+    <script type="text/javascript">
+
+        document.getElementById("button").onclick = function() {
+            document.getElementById("text").innerHTML = "Hello";
+        }
+
+        document.getElementById("button-2").onclick = function() {
+            document.getElementById("text").innerHTML = "Javascript is cool";
+        }
+    </script>
+
+
+    <script type="text/javascript">
+    alert("loaded");
+    console.log("hello")
+
+    </script>
+</body>
+</html>
